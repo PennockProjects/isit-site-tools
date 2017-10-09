@@ -1,8 +1,8 @@
 const CreateSmallImage = (function() {
     const sharp = require('sharp');
-    //const elfUtils = require('isit-code-calvert').elfUtils;
+    //const elfUtils = require('isit-code-pennock').elfUtils;
     const siteUtils = require('../../utilities');
-    const elfLog = require('isit-code-calvert').elfLog('make-report');
+    const elfLog = require('isit-code-pennock').elfLog('make-report');
     // const dateDir = '';
 
     function CreateSmallImage() {
