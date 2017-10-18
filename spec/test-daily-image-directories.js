@@ -2,7 +2,7 @@
  * Created by charlie on 7/7/16.
  */
 
-describe('Create directories for each day we took photos', function() {
+describe('Create directories fornpm  each day we took photos', function() {
 
     'use strict';
 
@@ -29,7 +29,7 @@ describe('Create directories for each day we took photos', function() {
         elfConfig.useLocalConfig = true;
         const spain = configurationSettings.getSelectedElvenImage('testImages');
         const picturePath = createDirectories.getPicturePath(spain);
-        expect(picturePath).toBe('/home/charlie/Git/writings/Tech/Markdown/testImages/');
+        expect(picturePath).toBe(process.env.HOME + '/Git/writings/Tech/Markdown/testImages/');
         //done();
     });
 
