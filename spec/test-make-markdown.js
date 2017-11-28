@@ -8,8 +8,8 @@ describe('Test Make Markdown Suite', function() {
     'use strict';
 
     const expected = [
-        '/home/charlie/ElvenImages/california1.md',
-        '/home/charlie/ElvenImages/california2.md'
+        '/home/bcuser/ElvenImages/california1.md',
+        '/home/bcuser/ElvenImages/california2.md'
     ];
 
     const customMatchers = require('./custom-matchers');
@@ -147,7 +147,7 @@ describe('Test Make Markdown Suite', function() {
             done();
         });
     });
-
+/*
     it('creates markdownFile', function(done) {
         const createSmallImage = require('../image-help/make-markdown/reports/create-small-image');
 
@@ -162,7 +162,7 @@ describe('Test Make Markdown Suite', function() {
             })
             .then(done)
     });
-
+*/
     it('creates markdownFile with delete', function(done) {
         configSettings.setSelectedElvenImages(configureTests.IMAGE_CONFIG_NAMES2);
 
